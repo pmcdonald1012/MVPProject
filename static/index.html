@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="anime.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/25b6137a6f.js" crossorigin="anonymous"></script>
+    <script defer src="frontend.js" type="module"></script>
+    <script defer src="min.js"></script>
+    <script defer src="animation.js" type="module"></script>
+    <title>RandomAnimeQuotes</title>
+</head>
+<body>
+    <div id="mainpage">
+    <div id="centerContent" style="opacity: 1; padding-top: 32px;">
+        <div id="top">
+           <h2 class="top-items">AniQuote</h2>
+           <input id="srch-btn" placeholder="Search" class="top-items"></input>
+           <button id="back-btn">Home</button>
+           <button id="mypins-btn">MyPins</button>
+        </div>
+        <div id="middle">
+           <div class="text-box">
+              <button id="quote-button">Welcome</button>
+              <button id="save-btn">Pin</button>
+           </div>
+           <div class="search-box"></div>
+        </div>
+        <div id="bottom">MyPins</div>
+     </div>
+    </div>
+
+
+    
+   <div id="loginpage">
+    <div id="logincenterContent" >
+        <div id="logintop">
+           <div id="top-title-box">
+           <h1 id="top-title">AniQuote</h1>
+             <h3 id="top-sub-title">Interactive Anime Quote Generator</h3>
+           </div>
+        </div>
+        <div id="loginmiddle">
+            <div id="login-container"> 
+                <h3>Log In Please</h3>
+                <h4>username</h4>
+                <input type="text" id="username"></input>
+                <h4>password</h4>
+                <input type="password" id="password"></input>
+                <button type="submit" id="login-submit">submit</button>
+            </div>
+        </div>
+
+    </div>
+</html>

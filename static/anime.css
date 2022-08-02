@@ -1,0 +1,184 @@
+body {
+    background: #1e1e1e;
+}
+
+#mainpage {
+    background: #1e1e1e;
+    color: #d4d4d4aa;
+    font-family:  "Roboto Mono", "Roboto Mono", "Vazirmatn";
+    margin: 20px;
+    min-height: 100vh;
+    overflow-x: hidden;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#centerContent {
+    align-items: center;
+    display: grid;
+    gap: 2rem;
+    grid-auto-flow: row;
+    grid-template-rows: auto 1fr auto;
+    max-width: 1000px;
+    min-height: 100vh;
+    padding: 2rem;
+    transition: padding-top .125s;
+    width: 100%;
+    z-index: 999;
+}
+#top {
+    border-bottom: 1px white solid;
+    width: 0px;
+    height: 130px;
+}
+#middle {
+
+    width: 1000px;
+    height: 500x;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bottom {
+    border: 1px white solid;
+    width: 1px;
+    height: 100px;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.text-box {
+
+    width: 800px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#quote {
+    color: lightblue;
+    letter-spacing: 2px;
+    font-size: x-large;
+    margin: 25px;
+    text-shadow: 2px 2px #3f3f42;
+}
+#quote-button {
+    width: 100px;
+    font-size: larger;
+    opacity: .2;
+    font-family:  "Roboto Mono", "Roboto Mono", "Vazirmatn";
+    border: 4px darkgray solid;
+    border-radius: 15px;
+    margin: 10px
+}
+#startBtn {
+    width: 100px;
+    font-size: larger;
+    opacity: .2;
+    font-family:  "Roboto Mono", "Roboto Mono", "Vazirmatn";
+    border: 4px darkgray solid;
+    border-radius: 15px;
+    margin: 10px
+}
+h1 {
+    opacity: .5;
+
+}
+h4 {
+    opacity: .5;
+}
+
+h2 {
+    color: lightblue;
+    text-shadow: 1px 1px grey;
+    font-size: xx-large;
+    margin-bottom:10px;
+}
+#save-btn {
+    width: 100px;
+    font-size: larger;
+    opacity: 0;
+    font-family:  "Roboto Mono", "Roboto Mono", "Vazirmatn";
+    border: 4px black solid;
+    border-radius: 15px;
+}
+.saved-data {
+    letter-spacing: 2px;
+    font-size: x-large;
+    margin: 25px;
+    text-shadow: 2px 2px #3f3f42;
+    opacity: 0;
+}
+
+.saved-author {
+    opacity: .7;
+}
+#srch-btn {
+    width: 70px;
+    font-size: larger;
+
+    font-family:  "Roboto Mono", "Roboto Mono", "Vazirmatn";
+    border: 4px darkgrey solid;
+    border-radius: 15px;
+    margin: 10px;
+    color: white;
+    background-color: grey;
+}
+::placeholder {
+    color: whitesmoke;
+    opacity: .4;
+}
+.search-box {
+    width: 800px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.search-data {
+    letter-spacing: 2px;
+    font-size: x-large;
+    margin: 25px;
+    text-shadow: 2px 2px #3f3f42;
+    opacity: 1;
+    color: lightgreen;
+}
+.miniSearchDiv {
+    opacity: 0;
+    border: 2px lightgrey solid;
+    width: 800px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+    border-radius: 20px;
+
+}
+#back-btn {
+    width: 90px;
+    font-size: larger;
+    font-family:  "Roboto Mono", "Roboto Mono", "Vazirmatn";
+    border: 4px darkgrey solid;
+    border-radius: 15px;
+    margin: 10px;
+    color: white;
+    background-color: grey;
+}
+#mypins-btn {
+    width: 80px;
+    font-size: large;
+    font-family:  "Roboto Mono", "Roboto Mono", "Vazirmatn";
+    border: 4px darkgrey solid;
+    border-radius: 15px;
+    margin: 10px;
+    opacity: .7;
+    color: white;
+    background-color: grey;
+}
